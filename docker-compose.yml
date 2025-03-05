@@ -69,7 +69,7 @@ services:
       "-T", $PGBENCH_DURATION,
       "-b", $PGBENCH_SCRIPT,
       "-P", "1", # show progress every 1 sec
-      "--report-latencies",
+      "--report-per-command",
       "pgbench" # database name
     ]
 
